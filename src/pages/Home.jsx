@@ -5,7 +5,7 @@
 import Download from './Download'
 import Bookmark from './Bookmark'
 import Features from './Features'
-import Contact from './contact'
+import Contact from './Contact'
 
 function Home() {
   

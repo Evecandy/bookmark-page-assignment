@@ -8,7 +8,7 @@ import Login from './pages/Login'
 import Home from './pages/Home'
 import Features from './pages/Features'
 import Download from './pages/Download'
-import Contact from './pages/contact'
+import Contact from './pages/Contact'
 import Bookmark from './pages/Bookmark'
 
 function App() {
