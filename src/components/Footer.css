@@ -1,0 +1,30 @@
+
+.Footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    background-color: #242946;
+    color: aliceblue;
+}
+
+.Footer-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.footer-details{
+    display: flex;
+    gap: 2rem;
+}
+
+#logo-footer {
+    color: white;
+    background-color: aliceblue;
+}

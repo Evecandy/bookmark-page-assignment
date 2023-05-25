@@ -1,0 +1,59 @@
+.Navbar-container {
+    display: flex;
+    justify-content: space-around;
+   gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.Navbar-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    /* justify-content: space-between; */
+    gap: 50px;
+    color: #70707A;
+    font-weight: bold;
+}
+
+.nav-list{
+    display: flex;
+    
+    gap: 2rem;
+}
+.nav-list:hover{
+    border: 1px solid green;
+    background-color: rgb(180, 114, 241);
+    border-radius: 10px;
+}
+
+.login-button {
+    background-color: #FB5759;
+    border: none;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    /* height: 30px;
+    width: 50px; */
+    /* font-size: x-small; */
+}
+
+.login-button:hover {
+    background-color: #55bf52;
+    cursor: pointer;
+  }
+
+a {
+    text-decoration: none;
+    color: #70707A;
+}
+
+
+.login-button a {
+    color: white;
+    
+}

@@ -1,0 +1,61 @@
+.download{
+    width: 100%;
+    background-color: rgb(246, 233, 241);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chrome{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+.browsers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 20px;
+}
+.head-content{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firefox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px orange,  15px 15px darkblue;
+    margin-top: 60px;
+}
+.opera{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow:  10px 10px red, 15px 15px green;
+    margin-top: 120px;
+}

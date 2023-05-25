@@ -1,0 +1,64 @@
+.feature-container {
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 2rem;
+
+    margin-bottom: 2rem;
+    background-color: rgb(189, 239, 142);
+
+
+}
+
+.featureHead {
+
+    width: 70%;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.featureG {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+
+
+}
+
+.listItems ul {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    list-style: none;
+
+}

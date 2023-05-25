@@ -1,0 +1,29 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: [Rubik](https://fonts.google.com/specimen/Rubik);
+}
+
+.main{
+    display: flex;  
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 35px;
+    background-color: rgb(184, 184, 209);
+}
+
+.content{
+    margin-left: 30px;
+    padding-right: 50px;
+}
+.content p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.image{
+   padding-left: 250px;
+
+}
