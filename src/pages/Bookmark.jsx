@@ -1,6 +1,7 @@
 
 import './Bookmark.css'
 // import logo from '../assets/logo-bookmark.svg'
+import illustrationHero from "../assets/illustration-hero.svg"
 
 function Bookmark() {
   return (
@@ -18,7 +19,7 @@ function Bookmark() {
           </div>
         </div>
         <div className="image">
-          <img src="./src/pages/illustration-hero.svg" alt="illustration-hero photo" />
+        <img src={illustrationHero} alt="illustration hero" />
         </div>
       </div>
     </>

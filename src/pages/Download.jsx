@@ -1,5 +1,8 @@
-import React from "react";
+
 import "./download.css";
+import logoChrome from '../assets/logo-chrome.svg'
+import logoFirefox from "../assets/logo-firefox.svg"
+import logoOpera from "../assets/logo-opera.svg"
 
 function Download() {
   return (
@@ -14,21 +17,23 @@ function Download() {
       </div>
       <div className="browsers">
       <div className="chrome">
-        <img src="./src/pages/logo-chrome.svg" />
+        
+        <img src={logoChrome} alt="chrome logo" />
         <h3>Add to chrome</h3>
         <p>minimum version 62</p>
         <hr style={{border:"1px dashed black", width:"100%"}}/>
         <button style={{backgroundColor:"blue",color:"white",borderRadius:"5px",padding:"10px", cursor:"pointer"}}>Add & Install Extension</button>
       </div>
       <div className="firefox">
-        <img src="./src/pages/logo-firefox.svg" />
+        <img src={logoFirefox} alt="firefox logo"/>
         <h3>Add to firefox</h3>
         <p>minimum version 55</p>
         <hr style={{border:"1px dashed black", width:"100%"}}/>
         <button style={{backgroundColor:"blue",color:"white",borderRadius:"5px",padding:"10px"}}>Add & Install Extension</button>
       </div>
       <div className="opera">
-        <img src="./src/pages/logo-opera.svg" />
+        
+        <img src={logoOpera} alt="opera logo" />
         <h3>Add to opera</h3>
         <p>minimum version 46</p>
         <hr style={{border:"1px dashed black", width:"100%"}}/>

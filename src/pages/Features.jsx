@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import image1 from "../pages/easySharing.png";
+import easySharing from "../assets/easySharing.png";
 
 import "./Feature.css";
 
@@ -9,7 +9,7 @@ const Features = () => {
     {
       name: "Simple Bookmark",
 
-      image: image1,
+      image: easySharing,
 
       description:
         "A bookmark is a physical or electronic marker used to indicate the current location in a book or document.",
@@ -18,7 +18,7 @@ const Features = () => {
     {
       name: "Speedy Searching",
 
-      image: image1,
+      image: easySharing,
 
       description:
         "Speedy Searching allows you to quickly find the information you need.",
@@ -27,7 +27,7 @@ const Features = () => {
     {
       name: "Easy sharing",
 
-      image: image1,
+      image: easySharing,
 
       description:
         "Easy sharing allows you to share your favorite content with others.",
@@ -84,7 +84,7 @@ const Features = () => {
         {" "}
         {selectedFeature && (
           <div className="featureG">
-            <img src={image1} alt={selectedFeature.name} />
+            <img src={easySharing} alt={selectedFeature.name} />
             <p>{selectedFeature.description}</p>
             {" "}
           </div>

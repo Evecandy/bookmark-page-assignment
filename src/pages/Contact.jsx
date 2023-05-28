@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { } from "react-icons/"
 
 import './contact.css'
-
+import iconArrow from "../assets/icon-arrow.svg"
 
 
 
@@ -47,7 +47,7 @@ function Contact() {
 
                         <label>What is Bookmark ?
 
-                            <button onClick={(e) => {e.preventDefault(); setShowText(!showText)}}><img src="./src/pages/icon-arrow.svg" />  </button>
+                            <button onClick={(e) => {e.preventDefault(); setShowText(!showText)}}><img src={iconArrow} alt="arrow icon" /> </button>
 
                             {showText && (
 
@@ -69,7 +69,7 @@ function Contact() {
 
                         <label>How can I request a new browser ?
 
-                            <button onClick={() => setShowText(!showText)}><img src="./src/pages/icon-arrow.svg" /></button>
+                            <button onClick={() => setShowText(!showText)}><img src={iconArrow} alt="arrow icon" /></button>
 
                             {showText && (
 
@@ -89,7 +89,7 @@ function Contact() {
 
                         <label>Is that a mobile app ?
 
-                            <button onClick={() => setShowText(!showText)}><img src="./src/pages/icon-arrow.svg" /></button>
+                            <button onClick={() => setShowText(!showText)}><img src={iconArrow} alt="arrow icon" /></button>
 
                             {showText && (
 
@@ -107,7 +107,7 @@ function Contact() {
 
                         <label>What about other chromium browsers ?
 
-                            <button onClick={() => setShowText(!showText)}><img src="./src/pages/icon-arrow.svg" /></button>
+                            <button onClick={() => setShowText(!showText)}><img src={iconArrow} alt="arrow icon" /></button>
 
                             {showText && (
 
@@ -147,7 +147,7 @@ function Contact() {
 
                     <form>
 
-                        <input type=''></input> <nbsp />
+                        <input type='' />
 
                         <button style={{ backgroundColor: "red", padding: "4px", borderRadius: "6px" }}>Contact us</button>
 
